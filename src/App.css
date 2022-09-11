@@ -1,0 +1,75 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.082);
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar_wrapper {
+  display: flex;
+  height: inherit;
+  /* border: 2px solid black; */
+  max-width: 1080px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  /* margin-right: 200px; */
+  font-size: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+.links {
+  text-decoration: none;
+  color: black;
+}
+
+time {
+  margin-left: 25px;
+}
+
+.container {
+  background-color: #387d67;
+  height: 1700px;
+}
+
+.hero {
+  width: 100vw;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+  justify-content: center;
+}
+
+img {
+  width: 500px;
+  height: 300px;
+}
+
+.artic {
+  background-color: rgba(255, 255, 255, 0.63);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-bottom: 5px solid #387d67;
+  border-radius: 10px;
+  padding: 5px;
+}
